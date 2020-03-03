@@ -1,0 +1,90 @@
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > div{
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    background-color:black;
+}
+
+.logo{
+    height: 80px;
+    position: absolute;
+}
+
+.search{
+    position: relative;
+    left: 100px;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.links{
+    display: flex;
+    position: static;
+    left: 250px;
+    /* background-color: white; */
+}
+
+.links > li > a{
+    font-size: 15px;
+    margin: 0 2vw;
+    text-decoration: none;
+    color: white;
+}
+
+.topright{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: hotpink; */
+}
+
+
+
+main{
+ width: 85%;
+ height: 1200px;
+ display: flex;
+ margin: 0 auto;
+ background-color: salmon;
+}
+
+.profile{
+    width: 20%;
+    height: 20%;
+    background-color: seagreen;
+    margin: 20px;
+}
+
+.popular{
+    width: 80%;
+    height: 40%;
+    margin-right: 20px;
+    background-color: seashell;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.act{
+    width: 40%;
+    height: 30%;
+    background-color: slateblue;
+    border: 1px solid black;
+    
+}
+
+/* .calender{
+    width: 80%;
+    height: 20%;
+    background-color: springgreen */
+} */
