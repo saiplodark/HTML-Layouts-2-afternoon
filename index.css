@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 header{
     width: 100%;
     height: 80px;
@@ -13,13 +16,14 @@ header > div{
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
-    background-color:black;
+    background-color:whitesmoke;
 }
 
 .logo{
     height: 80px;
     position: absolute;
 }
+
 
 .search{
     position: relative;
@@ -39,7 +43,7 @@ header > div{
     font-size: 15px;
     margin: 0 2vw;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .topright{
@@ -52,39 +56,99 @@ header > div{
 
 main{
  width: 85%;
- height: 1200px;
+ height: 1300px;
  display: flex;
  margin: 0 auto;
- background-color: salmon;
+ /* background-color: salmon; */
+}
+
+main1{
+    width: 40%;
+    height: 40%;
+    /* background-color:blue; */
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: baseline;
 }
 
 .profile{
-    width: 20%;
-    height: 20%;
-    background-color: seagreen;
-    margin: 20px;
+    width: 60%;
+    height: 50%;
+    margin-top: 20px;
+    /* background-color: seagreen; */
+}
+
+main1 > h2{
+    font-size:40px;
+    margin-top: 10%;
+    color:whitesmoke;
+    font-style: italic;
+}
+
+.button{
+    font-size: 20px;
+    width: 60%;
+}
+
+main2{
+width: 60%;
+    height: 100%;
+    background-color: black;
+}
+
+.overview{
+    width: 100%;
+    height: 5%;
+    /* background-color: brown; */
+    border-bottom: solid 1px whitesmoke;
+}
+
+main2 > h1{
+    font-size: 20px;
+    color: white;
+    font-style: italic;
 }
 
 .popular{
-    width: 80%;
+    width: 100%;
     height: 40%;
-    margin-right: 20px;
-    background-color: seashell;
+    margin-top: 5%;
+    /* background-color: seashell; */
     display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .act{
-    width: 40%;
-    height: 30%;
-    background-color: slateblue;
-    border: 1px solid black;
+    width: 45%;
+    height: 25%;
+    /* background-color: slateblue; */
+    border: 2px solid whitesmoke;
     
 }
 
-/* .calender{
-    width: 80%;
-    height: 20%;
-    background-color: springgreen */
-} */
+.calender{
+    width: 100%;
+    height: 10%;
+    margin-top: 5vh;
+    /* background-color: springgreen; */
+    border: solid 1px whitesmoke;
+}
+
+
+main2 > h3{
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+    margin-top: 60px;
+}
+
+.contribution{
+    width: 100%;
+    height: 15%;
+    margin-top: 40px;
+    background-color: blue;
+}
